@@ -1,0 +1,30 @@
+header{
+    background: #bbbb;
+    padding: 20px 0; /*ESPAÇAMENTO INTERNO*/
+}
+.caixa{
+    position: relative; /*COLOCA TD O QUE ESTA FORA DENTRO DA CAIXA DIV*/
+    width: 940px;
+    margin: 0 auto; /*ALINHAR UMA DIV AUTOMATICAMENTE*/
+}
+
+nav {
+    position: absolute; /*DEIXA ALGO DO PONTO ZERO PARA PODER MUDAR O POSICIONAMENTO*/
+    top: 110px;
+    right: 0;
+}
+
+/* COLOCA OS ITENS DE NAVEGAÇÃO EM LINHA */
+nav li{
+    display: inline;
+    margin:  0 0 0 15px; /* CRIA UM ESPAÇO ENTRE OS LIKS */
+}
+
+nav a{
+    text-transform: uppercase; /* COLOCA OS LINKS EM MAIUSCULO */
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /* TIRA O SUBLINHADO DO LINK */
+    
+}
