@@ -1,30 +1,87 @@
-header{
+header {
     background: #bbbb;
-    padding: 20px 0; /*ESPAÇAMENTO INTERNO*/
+    padding: 20px 0;
+    /*ESPAÇAMENTO INTERNO*/
 }
-.caixa{
-    position: relative; /*COLOCA TD O QUE ESTA FORA DENTRO DA CAIXA DIV*/
+
+.caixa {
+    position: relative;
+    /*COLOCA TD O QUE ESTA FORA DENTRO DA CAIXA DIV*/
     width: 940px;
-    margin: 0 auto; /*ALINHAR UMA DIV AUTOMATICAMENTE*/
+    margin: 0 auto;
+    /*ALINHAR UMA DIV AUTOMATICAMENTE*/
 }
 
 nav {
-    position: absolute; /*DEIXA ALGO DO PONTO ZERO PARA PODER MUDAR O POSICIONAMENTO*/
+    position: absolute;
+    /*DEIXA ALGO DO PONTO ZERO PARA PODER MUDAR O POSICIONAMENTO*/
     top: 110px;
     right: 0;
 }
 
 /* COLOCA OS ITENS DE NAVEGAÇÃO EM LINHA */
-nav li{
+nav li {
     display: inline;
-    margin:  0 0 0 15px; /* CRIA UM ESPAÇO ENTRE OS LIKS */
+    margin: 0 0 0 15px;
+    /* CRIA UM ESPAÇO ENTRE OS LIKS */
 }
 
-nav a{
-    text-transform: uppercase; /* COLOCA OS LINKS EM MAIUSCULO */
+nav a {
+    text-transform: uppercase;
+    /* COLOCA OS LINKS EM MAIUSCULO */
     color: #000000;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none; /* TIRA O SUBLINHADO DO LINK */
+    text-decoration: none;
+    /* TIRA O SUBLINHADO DO LINK */
+
+}
+
+a:hover {
+    color: blue; /*muda quando passa o mouse por cima*/
     
+}
+a:active{
+    color: yellowgreen; /*muda quando clica com o mouse*/
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    /*COLOCA OS ITENS LADO A LADO*/
+    text-align: center;
+    width: 30%;
+    /*DEFINE O TAMANHO DE CADA GRUPO*/
+    vertical-align: top;/*ALINHA O TEXTO PRA FICAR NA PARTE DE CIMA*/
+    margin: 0 1.5px;
+    padding: 30px 20px; /*ESPAÇAMENTO INTERNO*/
+    box-sizing: border-box; /*AJUSTA O PADDING PARA NÃO ADICIONAR MAIS */
+    /* border-color: #000000;
+    border-width: 2px;      JEITO ANTIGO
+    border-style: solid; */
+    border: 2px solid #000000;
+    border-radius: 10PX;
+}
+
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ALTERA OS PARAGRAFOS <P> */
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    /*COLOCA SÓ O PARAGRAFO DO PREÇO DIFERENTE*/
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
