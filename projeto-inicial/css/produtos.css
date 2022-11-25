@@ -5,16 +5,13 @@ header {
 }
 
 .caixa {
-    position: relative;
-    /*COLOCA TD O QUE ESTA FORA DENTRO DA CAIXA DIV*/
+    position: relative; /*COLOCA TD O QUE ESTA FORA DENTRO DA CAIXA DIV*/
     width: 940px;
-    margin: 0 auto;
-    /*ALINHAR UMA DIV AUTOMATICAMENTE*/
+    margin: 0 auto;/*ALINHAR UMA DIV AUTOMATICAMENTE*/
 }
 
 nav {
-    position: absolute;
-    /*DEIXA ALGO DO PONTO ZERO PARA PODER MUDAR O POSICIONAMENTO*/
+    position: absolute;/*DEIXA ALGO DO PONTO ZERO PARA PODER MUDAR O POSICIONAMENTO*/
     top: 110px;
     right: 0;
 }
@@ -22,26 +19,24 @@ nav {
 /* COLOCA OS ITENS DE NAVEGAÇÃO EM LINHA */
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
-    /* CRIA UM ESPAÇO ENTRE OS LIKS */
+    margin: 0 0 0 15px;/* CRIA UM ESPAÇO ENTRE OS LIKS */
 }
 
 nav a {
-    text-transform: uppercase;
-    /* COLOCA OS LINKS EM MAIUSCULO */
+    text-transform: uppercase; /* COLOCA OS LINKS EM MAIUSCULO */
     color: #000000;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;
-    /* TIRA O SUBLINHADO DO LINK */
+    text-decoration: none;/* TIRA O SUBLINHADO DO LINK */
 
 }
 
-a:hover {
+nav a:hover {
     color: blue; /*muda quando passa o mouse por cima*/
+    text-decoration: underline;
     
 }
-a:active{
+nav a:active{
     color: yellowgreen; /*muda quando clica com o mouse*/
 }
 
@@ -52,13 +47,11 @@ a:active{
 }
 
 .produtos li {
-    display: inline-block;
-    /*COLOCA OS ITENS LADO A LADO*/
+    display: inline-block;/*COLOCA OS ITENS LADO A LADO*/
     text-align: center;
-    width: 30%;
-    /*DEFINE O TAMANHO DE CADA GRUPO*/
+    width: 30%;/*DEFINE O TAMANHO DE CADA GRUPO*/
     vertical-align: top;/*ALINHA O TEXTO PRA FICAR NA PARTE DE CIMA*/
-    margin: 0 1.5px;
+    margin: 0 1.5%;
     padding: 30px 20px; /*ESPAÇAMENTO INTERNO*/
     box-sizing: border-box; /*AJUSTA O PADDING PARA NÃO ADICIONAR MAIS */
     /* border-color: #000000;
@@ -67,7 +60,18 @@ a:active{
     border: 2px solid #000000;
     border-radius: 10PX;
 }
+.produtos li:hover {
+    border-color: blue;
+    font-size: 40px;
+}
 
+.produtos li:active{
+    border-color: greenyellow;
+}
+
+.produtos li:hover h2 { /*altera o h2 dentro do li*/
+    font-size: 34px;
+} 
 
 .produtos h2 {
     font-size: 30px;
@@ -85,3 +89,18 @@ a:active{
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    background-color: rgb(32, 51, 45); 
+    padding: 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+    font-family: arial;
+}
+
+/* UNICODE ICON */
