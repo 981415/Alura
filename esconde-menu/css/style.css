@@ -1,0 +1,31 @@
+header{
+    padding: 20px;
+}
+.botaoMenu{
+    background-color: brown;
+    cursor: pointer;
+}
+.formulario{
+    position: absolute;
+    display: block;
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    transition: .50s;
+}
+.formulario--ativo{
+    left: -300px;
+    transform: scale(1.2);
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-left: 10px;
+    
+}
+form input{
+    margin-left: 10px;
+    border: none;
+}
