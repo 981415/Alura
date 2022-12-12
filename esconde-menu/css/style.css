@@ -16,6 +16,7 @@ header{
 }
 .formulario--ativo{
     left: -300px;
+    transition: .50s;
     transform: scale(1.2);
 }
 form label{
