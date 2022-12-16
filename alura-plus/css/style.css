@@ -38,6 +38,7 @@ body{
     display: block; 
     text-decoration: none; /*TIRA O SUBLINHADO DO LINK DO BOTAO*/
     margin-bottom: 1em;
+    transition: 0.5s;
 }
 .botao__secundario{
     background-color: transparent;
@@ -113,6 +114,7 @@ padding: 5em;
     list-style-type: none;
     justify-content: center;
     margin: 15px 15px;
+    
   
 }
 footer li a{
@@ -134,6 +136,5 @@ footer li a{
 .container__botao:hover{
     background-color: var(--botao--azul-efeito);
     color: var(--cor-de-fundo);
-    transition: 0.5s all;
+    
 }
-.container__botao:
