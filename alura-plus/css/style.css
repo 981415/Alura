@@ -73,4 +73,12 @@ body{
 }
 .descricao__texto{
     color: var(--cinza--secundario);
+
+}
+.secundario__botao{
+    display: inline-block; /*deixa o elemento no canto e no tamanho da escrita*/
+    margin-top: 1em;
+} 
+.container__descricao{
+padding: 5em;
 }
