@@ -104,8 +104,12 @@ padding: 5em;
     font-size: 32px;
     color: var(--branco-principal);
 }
+.rodape__logo{
+ 
+    margin-left: 50%;
+}
 .rodape{
-    text-align: center;
+    /* text-align: center; */
     margin: 5em 3em;
 
 }
@@ -136,6 +140,7 @@ footer li a{
 .container__botao:hover{
     background-color: var(--botao--azul-efeito);
     color: var(--cor-de-fundo);
+<<<<<<< Updated upstream
     
 }
 
@@ -168,3 +173,7 @@ footer li a{
         display: block;
     }
 }
+=======
+    transition: 0.5s;
+}
+>>>>>>> Stashed changes
